@@ -1,4 +1,4 @@
-FROM base/archlinux:latest
+FROM archlinux:latest
 MAINTAINER Benjamin Thuillier <benjaminthuillier@gmail.com>
 
 RUN pacman --noconfirm -Sy ca-certificates openssl wget unzip; yes | pacman -Scc
